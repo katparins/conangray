@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Cantata+One&family=Krona+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Cantata+One&family=Krona+One&family=Rock+Salt&display=swap');
+
+* {
+	box-sizing: border-box;
+}
+
+body, html {
+ 	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	height: 170vh;
+    width: 100%;
+	background-image: url("conangraybg.jpeg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+    background-attachment: fixed;
+}
+
+.conangray {
+	color: black;
+	font-size: 21px;
+	margin-top: 60px;
+	margin-left: 105px;
+	background-color: #FEFF60;
+	position: relative; 
+	width: 810px; 
+	height: 55px;
+	font-family: 'Krona One', sans-serif;
+}
+
+.verse {
+	margin-left: 105px;
+	color: whitesmoke;
+	margin-top: 65px;
+	font-size: 27px;
+	line-height: 1.7;
+	font-family: 'Inter', sans-serif;
+}
+
+.prechorus, .chorus {
+	margin-left: 105px;
+	color: whitesmoke;
+	margin-top: 50px;
+	font-size: 27px;
+	line-height: 1.7;
+	font-family: 'Inter', sans-serif;
+}
+
+div.bridge {
+	margin-left: 105px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    margin-top: 50px;
+ 	left: 460px;
+}
+
+div.bridge p {
+    color: yellow;
+    font-size: 35px;
+    line-height: 0.2;
+    text-align: center;
+    font-family: 'Rock Salt', cursive;
+    white-space: nowrap;
+}
+
+div.bridge > p {
+	color: whitesmoke;
+}
+
+.link {
+  margin-left: 105px;
+  font-size: 21px;
+  margin-top:50px;
+  font-family: 'Inter', sans-serif;	
+}
+
+a:link {
+  color: #FFF387;
+}
+
+a:visited {
+  color: floralwhite;
+}
+
+a:hover {
+  color: #FAD02C;
+}
+
+.vid {
+  margin-left: 105px;
+  position: absolute;
+  left: 690px;
+  top: 340px;
+}
